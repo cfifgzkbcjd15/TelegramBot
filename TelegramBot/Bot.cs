@@ -27,7 +27,7 @@ namespace TelegramBot
         {
             //Scaffold-DbContext "Server=DESKTOP-4312I2K;Database=TelegramBot;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer
             var client = Program.client;
-            var September = new DateTime(DateTime.Now.Year, 9, 01);
+            var September = new DateTime(2019, 9, 01);//2019
             var msg = e.Message;
             using (var db = new TelegramBotContext())
             {
